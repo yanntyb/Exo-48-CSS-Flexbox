@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: black;
+}
+
+.cont {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+span {
+    border-radius: 90%;
+    font-size: 3rem;
+}
+
+div:not(.cont) {
+    width: 22%;
+    height: 45%;
+}
+
+#case1 {
+    background-color: red;
+}
+#case2 {
+    background-color: yellow;
+}
+#case3 {
+    background-color: green;
+}
+#case4 {
+    background-color: violet;
+}
+#case5 {
+    background-color: blue;
+}
+#case6 {
+    background-color: chocolate;
+}
+#case7 {
+    background-color: cyan;
+}
+#case8 {
+    background-color: darkorange;
+}

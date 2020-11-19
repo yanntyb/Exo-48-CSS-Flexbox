@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.cont {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+div:not(.cont) {
+    width: 33%;
+    height: 25%;
+}
+
+#case1 {
+    background-color: chocolate;
+}
+#case2 {
+    background-color: green;
+}
+#case3 {
+    background-color: aqua;
+}
+#case4 {
+    background-color: lightcoral;
+}
+#case5 {
+    background-color: firebrick;
+}
+#case6 {
+    background-color: yellowgreen;
+}
+#case7 {
+    background-color: orangered;
+}
+#case8 {
+    background-color: lightcoral;
+}
+#case9 {
+    background-color: brown;
+    flex-basis: 100%;
+}
