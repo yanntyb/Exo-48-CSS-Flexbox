@@ -22,6 +22,10 @@ div:not(.cont){
     height: 4vh;
 }
 
+div:not(.cont):hover {
+    transform: scale(1.5);
+}
+
 #case1 {
     background-color: green;
 }
@@ -30,14 +34,8 @@ div:not(.cont){
 }
 #case3 {
     background-color: aqua;
-    transform: scale(1);
-    transition: scale;
-    transition-duration: 2s;
 }
 
-#case3:hover {
-    transform: scale(1.5);
-}
 
 #case4 {
     background-color: firebrick;
